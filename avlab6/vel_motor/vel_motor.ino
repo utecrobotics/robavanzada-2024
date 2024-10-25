@@ -11,6 +11,9 @@ void setup() {
   pinMode(ENC_IN_RIGHT_A , INPUT_PULLUP);
   pinMode(ENC_IN_RIGHT_B , INPUT);
 
+  pinMode(PWM_M2A, OUTPUT);
+  pinMode(PWM_M2B, OUTPUT);
+  
   digitalWrite(PWM_M2A, LOW);       // MOTOR
   digitalWrite(PWM_M2B, LOW);
 
